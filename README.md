@@ -14,3 +14,12 @@ Valores: Normalização de campos monetários para o tipo numeric
 
 Antes
 <img width="1807" height="999" alt="image" src="https://github.com/user-attachments/assets/0b6ad55c-989f-4ef7-a1fa-4170897f9d15" />
+
+Depois Supabase
+<img width="1714" height="935" alt="image" src="https://github.com/user-attachments/assets/8266857a-d19f-4ba5-b1db-e5e41bfea10e" />
+
+## 🤖 Fluxo de Automação Planejado (n8n)
+1. **Trigger:** Novo pedido recebido via Webhook (Anota AI).
+2. **Cálculo:** Processamento automático de 6% de cashback sobre o valor do pedido.
+3. **Persistência:** Atualização do saldo no Supabase e registro da data de expiração (90 dias).
+4. **Notificação:** Envio de confirmação de saldo via WhatsApp para o cliente.
