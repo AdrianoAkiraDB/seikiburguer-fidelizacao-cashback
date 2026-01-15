@@ -9,7 +9,7 @@ Meu objetivo é implementar um programa de fidelidade com 6% de cashback com val
 Estou utilizando:
 Banco de Dados: Supabase (PostgreSQL)
 ETL & Limpeza: Google Sheets
-Automação (Em progresso): n8n
+Automação (Em progresso): Make
 Documentação: GitHub
 
 Os dados brutos do excel continham inconsistências de formatos. Realizei o tratamento de:
@@ -35,4 +35,4 @@ Depois Supabase
 ## Minha jornada nesse projeto
 
 Comecei o projeto utilizando meu caso real devido as necessidades que estava tendo na minha hamburgueria, estou tentando implementar cada etapa com ajuda de IA's.
-Fiz a limpeza e alterações de algumas planilhas no excel, utilizava células mescladas e percebi que supabase não estava reconhecendo arquivos .csv com células mescladas, então fiz a limpeza manualmente, depois descobri que poderia ter feito um script em python para acelerar o processo.
+Fiz a limpeza e alterações de algumas planilhas no excel, utilizava células mescladas e percebi que supabase não estava reconhecendo arquivos .csv com células mescladas, então fiz a limpeza manualmente, depois descobri que poderia ter feito um script em python para acelerar o processo, uma solução para situações parecidas no futuro.
