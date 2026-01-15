@@ -34,8 +34,9 @@ Antes
 <img width="1792" height="886" alt="image" src="https://github.com/user-attachments/assets/6966d16d-036e-4ede-a8c1-11ca91639b7e" />
 
 Depois Supabase
-<img width="1421" height="846" alt="supabase clientes depois" src="https://github.com/user-attachments/assets/0fd2fc5c-66f1-402a-80d4-d232718ee81b" />
+<img width="1421" height="846" alt="supabase clientes depois" src="https://github.com/user-attachments/assets/11526039-d4f7-42b3-84f5-1e869c65caac" />
 Captura de tela do banco de dados no Supabase. Os dados de identificação pessoal (PII) foram omitidos para garantir a privacidade dos clientes e conformidade com a LGPD.
+Organizei o banco de dados: tirei o telefone da tabela principal e criei uma tabela exclusiva para contatos. Fiz isso porque, na prática, uma família pode pedir de vários celulares diferentes. Com essa estrutura (que chamamos de 1 para muitos), o sistema consegue reconhecer o cliente e dar o cashback, não importa se o pedido veio do celular dele, da mãe ou do filho.
 
 
 
