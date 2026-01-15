@@ -34,9 +34,8 @@ Antes
 <img width="1792" height="886" alt="image" src="https://github.com/user-attachments/assets/6966d16d-036e-4ede-a8c1-11ca91639b7e" />
 
 Depois Supabase
-
-
-
+<img width="1421" height="846" alt="supabase clientes depois" src="https://github.com/user-attachments/assets/0fd2fc5c-66f1-402a-80d4-d232718ee81b" />
+Captura de tela do banco de dados no Supabase. Os dados de identificação pessoal (PII) foram omitidos para garantir a privacidade dos clientes e conformidade com a LGPD.
 
 
 
